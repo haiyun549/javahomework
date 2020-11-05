@@ -9,6 +9,7 @@ public class HW6_4 {
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
 		reverse(n);
+		in.close();
 	}
 
 	public static void reverse(int number) {
@@ -29,6 +30,8 @@ public class HW6_4 {
 		for(char e: rsa) {
 			rs+= e;
 		}
-		System.out.print(rs);
+		//将字符串转换成整数
+		int rsn = Integer.parseInt(rs);
+		System.out.print(rsn);
 	}
 }
