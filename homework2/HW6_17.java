@@ -8,6 +8,7 @@ public class HW6_17 {
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
 		printMatrix(n);
+		in.close();
 	}
 	
 	public static void printMatrix(int n) {

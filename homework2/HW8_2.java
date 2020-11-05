@@ -14,6 +14,7 @@ public class HW8_2 {
 			}
 		}
 		System.out.print("主对角线元素和为"+sumMajorDiagonal(m));
+		in.close();
 	}
 	
 	public static double sumMajorDiagonal (double[][] m) {

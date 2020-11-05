@@ -13,6 +13,7 @@ public class HW7_10 {
 			a[i] = in.nextDouble();
 		}
 		System.out.print("最小元素的下标为"+indexOfSmallestEIement(a));
+		in.close();
 	}
 	
 	public static int indexOfSmallestEIement(double[] array) {
